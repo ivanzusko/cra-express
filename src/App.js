@@ -3,6 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // Just testing stuff
+  const ping = () => {
+    window.fetch('/ping')
+      .then(data => {
+        console.log("Test ping: ", data)
+      })
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +26,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => ping()}>Test Ping</button>
       </header>
     </div>
   );

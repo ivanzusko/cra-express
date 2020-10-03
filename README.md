@@ -1,8 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Express](https://expressjs.com/)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run dev` or `yarn dev`
+
+Runs the app in the development mode with running Express server (Express runs on [http://localhost:8080](http://localhost:8080))
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+To make sure that **Express** server runs properly, click on `Ping` button.
+You should be able to see request to `/ping`.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
 ### `yarn start`
 
